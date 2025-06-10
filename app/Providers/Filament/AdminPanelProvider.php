@@ -57,7 +57,7 @@ class AdminPanelProvider extends PanelProvider
                 Authenticate::class,
             ])
             ->plugin(FilamentSpatieLaravelBackupPlugin::make()
-                    ->usingPage(Backups::class)
+                ->usingPage(Backups::class)
             );
     }
 }

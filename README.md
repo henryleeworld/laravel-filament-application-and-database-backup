@@ -1,4 +1,4 @@
-# Laravel 10 Filament 應用程式和資料庫備份
+# Laravel 11 Filament 應用程式和資料庫備份
 
 Filament 應用程式和資料庫備份採用快速建立簡捷的 TALL（Tailwind CSS、Alpine.js、Laravel 和 Livewire）堆疊應用程式的工具組，現實的世界並不完美。當災難發生時，事情可能以多種方式出錯使情況更糟，有時是因為故意而變糟的，但往往並不是故意變糟的。一旦我們知道出錯的原因後，總是會過得很不愉快。
 
@@ -35,11 +35,11 @@ $ npm run build
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/NvtIwlZ.gif)
+![](https://i.imgur.com/tYdMcJ9.gif)
 > 您必須先完成一次備份或還原要求後，才能進行還原
 
-![](https://i.imgur.com/L9CxuvJ.png)
+![](https://i.imgur.com/YaJQK50.png)
 > 使用電子郵件通知備份成功
 
-![](https://i.imgur.com/0cfZ1Ay.png)
+![](https://i.imgur.com/9Sj9NXt.png)
 > 取得原始資料 ZIP 壓縮檔格式後，將其保存在安全的儲存位置
