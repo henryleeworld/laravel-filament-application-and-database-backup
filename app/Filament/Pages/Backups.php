@@ -2,19 +2,22 @@
 
 namespace App\Filament\Pages;
 
+use BackedEnum;
+use Filament\Support\Icons\Heroicon;
 use Illuminate\Contracts\Support\Htmlable;
-use ShuvroRoy\FilamentSpatieLaravelBackup\Pages\Backups as BaseBackups;
+use ShuvroRoy\FilamentSpatieLaravelBackup\Pages\Backups as BackupsPage;
+use UnitEnum;
 
-class Backups extends BaseBackups
+class Backups extends BackupsPage
 {
-    protected static ?string $navigationIcon = 'heroicon-o-cpu-chip';
+    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedCpuChip;
 
-    public function getHeading(): string | Htmlable
+    public function getHeading(): string|Htmlable
     {
         return __('Application And Database Backups');
     }
 
-    public static function getNavigationGroup(): ?string
+    public static function getNavigationGroup(): string|UnitEnum|null
     {
         return __('Core');
     }

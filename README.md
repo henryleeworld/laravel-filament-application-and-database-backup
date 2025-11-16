@@ -1,4 +1,4 @@
-# Laravel 11 Filament 應用程式和資料庫備份
+# Laravel 12 Filament 應用程式和資料庫備份
 
 Filament 應用程式和資料庫備份採用快速建立簡捷的 TALL（Tailwind CSS、Alpine.js、Laravel 和 Livewire）堆疊應用程式的工具組，現實的世界並不完美。當災難發生時，事情可能以多種方式出錯使情況更糟，有時是因為故意而變糟的，但往往並不是故意變糟的。一旦我們知道出錯的原因後，總是會過得很不愉快。
 
