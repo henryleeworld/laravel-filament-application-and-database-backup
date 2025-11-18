@@ -46,8 +46,7 @@ return [
         'mysql' => [
             'driver' => 'mysql',
 		    'dump' => [
-                'dump_binary_path' => 'G:\8.2\mysql\bin',
-		        //'dump_binary_path' => '/path/to/the/binary', // only the path, so without `mysqldump` or `pg_dump`
+		        'dump_binary_path' => '/path/to/the/binary', // only the path, so without `mysqldump` or `pg_dump`
 		        'use_single_transaction',
 		        'timeout' => 60 * 5, // 5 minute timeout
 		        // 'exclude_tables' => ['table1', 'table2'],
